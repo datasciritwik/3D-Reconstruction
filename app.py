@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 # import matplotlib.pyplot as plt
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_men
 
 st.set_page_config(layout='wide')
 
