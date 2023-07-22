@@ -6,6 +6,13 @@ import plotly.graph_objects as go
 # from streamlit_option_menu import option_men
 
 st.set_page_config(layout='wide')
+a = """
+<style>
+#MainMenu {visibility : hidden; }
+footer {visibility : hidden; }
+</style>
+"""
+st.markdown(a, unsafe_allow_html=True)
 
 def norm_func(x):
     return (x-x.min())/(x.max()-x.min())
